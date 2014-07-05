@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Class Check</title>
+	<script type="text/javascript">
+	window.onload = function() {
+		var oInput = document.getElementById("aaa");
+		var oBtn = document.getElementById("btn");
+
+		oBtn.onclick = function() {
+			alert(oInput.value);
+		}
+
+
+		var aPeople = document.getElementById("people1");
+		var oGezi = aPeople.getElementsByTagName("span");
+		var aBtn2 = document.getElementById("btn2");
+		var counter = 0;
+
+		for (var i = 0; i < oGezi.length; i++) {
+			oGezi[i].onclick = function() {
+				if(this.style.backgroundColor == "rgb(231, 76, 60)") {
+					this.style.backgroundColor = "#1ABC9C";
+					counter--;
+				} else {
+					this.style.backgroundColor = "#E74C3C";
+					counter++;
+				}
+			}
+		}
+		aBtn2.onclick = function() {
+			alert(counter);
+		}
+		
+	}
+	</script>
+	<style type="text/css">
+		h1 {
+			font-family: 华文细黑;
+		}
+		#people1 span {
+			display: inline-block;
+			width: 100px;
+			height: 100px;
+			background-color: #1ABC9C;
+			cursor: pointer;
+		}
+	</style>
+</head>
+<body>
+	<h1>Class Check</h1>
+	<ul style="display: none;">
+		<li>
+			Name1:<input id="aaa" type="text">
+			Class1:<input type="text">
+			Time1:<input type="text">
+			<input id="btn" type="button">
+		</li>
+		<li>
+			Name2:<input type="text">
+			Class2:<input type="text">
+			Time2:<input type="text">
+		</li>
+	</ul>
+	<div id="people1">
+		<span></span>
+		<span></span>
+		<span></span>
+		<span></span>
+		<span></span>
+		<br />
+		<span></span>
+		<span></span>
+		<span></span>
+		<span></span>
+		<span></span>
+	</div>
+	<input id="btn2" type="button">
+</body>
+</html>

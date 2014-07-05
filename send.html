@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Send Date Assignment</title>
+	<link rel="stylesheet" type="text/css" href="css/common.css">
+	<link rel="stylesheet" type="text/css" href="css/send.css">
+	<script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+	<script type="text/javascript" src="js/json2.js"></script>
+	<script type="text/javascript" src="js/send.js"></script>
+</head>
+<body>
+	<p id="sekuai"></p>
+	<h1>Meeting</h1>
+	<div id="calendar">
+        <p>
+            <input type="text" id="dateSelect" value="" placeholder=""/>
+        </p>
+        <div id="xiangmuName">
+        	<p id="xiangmumingcheng">项目名称 </p> <input id="xiangmuTitle" type="text" value="" />
+        </div>
+        <span id="turnDate" style="display: none;"><img src="imgs/goOn.png"></span>
+        <span id="rightTip"> <img src="imgs/selectTimeicon.png"> </span>
+    </div>
+    <div id="allSecond">
+	    <div id="zhezhao"></div>
+		<div id="dateList">
+			
+		</div>
+		<div id="sideBar">
+			<input class="sideKuai" id="sideK1" type="text" value="上午" />
+			<input class="sideKuai" id="sideK2" type="text" value="下午" />
+			<input class="sideKuai" id="sideK3" type="text" value="晚上" />
+			<input class="sideKuai" id="sideK4" type="text" value="" />
+			<input class="sideKuai" id="sideK5" type="text" value="" />
+			<input class="sideKuai" id="sideK6" type="text" value="" />
+			<input class="sideKuai" id="sideK7" type="text" value="" />
+		</div>
+		<div id="middleBar">
+
+		</div>
+		<div class="mengban" id="mengban1"></div>
+		<div class="mengban" id="mengban2"></div>
+		<div class="mengban" id="mengban3"></div>
+		<div class="mengban" id="mengban4"></div>
+		<p class="showBtn" id="button1">添加</p>
+		<p class="showBtn" id="button2">添加</p>
+		<p class="showBtn" id="button3">添加</p>
+		<p class="showBtn" id="button4">添加</p>
+		<p id="tips">点击选择空闲时间</p>
+		<div id="fasongBtn"><img src="imgs/fasong.png"></div>
+	</div>
+	<a id="backBtn" href="home.html"><img src="imgs/back.png"></a>
+	<div id="zhebi"></div>
+	<div id="feedback">
+		<div id="urlIntro">专属反馈信息页面：</div>
+		<p id="urlValue"></p>
+		<div id="passwdIntro">密码验证保护信息：</div>
+		<p id="passwdValue"></p>
+	</div>
+</body>
+</html>

@@ -1,0 +1,212 @@
+﻿$axure.loadCurrentPage({
+  "url":"主页.html",
+  "generationDate":new Date(1400850694384.2),
+  "isCanvasEnabled":false,
+  "variables":["OnLoadVariable"],
+  "page":{
+    "packageId":"70d44434002f454c977bd0bcb0273b42",
+    "type":"Axure:Page",
+    "name":"主页",
+    "notes":{
+},
+    "style":{
+      "baseStyle":"627587b6038d43cca051c114ac41ad32",
+      "pageAlignment":"near",
+      "fill":{
+        "fillType":"solid",
+        "color":0xFFFFFFFF},
+      "image":null,
+      "imageHorizontalAlignment":"near",
+      "imageVerticalAlignment":"near",
+      "imageRepeat":"auto",
+      "favicon":null,
+      "sketchFactor":"0",
+      "colorStyle":"appliedColor",
+      "fontName":"应用字体",
+      "borderWidth":"0"},
+    "adaptiveStyles":{
+},
+    "interactionMap":{
+},
+    "diagram":{
+      "objects":[{
+          "id":"bab184053ff94e59bcab50df99f11571",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":30,
+              "y":40},
+            "size":{
+              "width":600,
+              "height":390}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"a2ee1d1acb2e4cedb0ace4fb92846a6e",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "location":{
+                  "x":30,
+                  "y":40},
+                "size":{
+                  "width":600,
+                  "height":390}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/主页/u0.png"}},
+{
+          "id":"2b22dacd27d44dd998fa43693b0df921",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":30,
+              "y":40},
+            "size":{
+              "width":600,
+              "height":100}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"deb7414ef20a498abb45ef51b30ce9bd",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "location":{
+                  "x":30,
+                  "y":40},
+                "size":{
+                  "width":600,
+                  "height":100}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/主页/u2.png"}},
+{
+          "id":"a2bf1ad88af74833b98b26f3fd1e6c2f",
+          "label":"",
+          "type":"flowShape",
+          "styleType":"flowShape",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":90,
+              "y":220},
+            "size":{
+              "width":133,
+              "height":80}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"f15828a2c5174e23b338e8840c12d669",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "location":{
+                  "x":90,
+                  "y":220},
+                "size":{
+                  "width":133,
+                  "height":80}},
+              "adaptiveStyles":{
+}}],
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 新窗口/标签页 打开 发送链接",
+                      "target":{
+                        "targetType":"page",
+                        "url":"发送链接.html",
+                        "includeVariables":true},
+                      "linkType":"new"}]}]}},
+          "tabbable":true,
+          "images":{
+            "normal~":"images/主页/u4.png"}},
+{
+          "id":"43d3ddcdbdd34873827b1450f4b7f0b5",
+          "label":"",
+          "type":"flowShape",
+          "styleType":"flowShape",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":350,
+              "y":220},
+            "size":{
+              "width":133,
+              "height":80}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"c6bd34a73e074445863462f5abe9bd4b",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "location":{
+                  "x":350,
+                  "y":220},
+                "size":{
+                  "width":133,
+                  "height":80}},
+              "adaptiveStyles":{
+}}],
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 新窗口/标签页 打开 回收链接",
+                      "target":{
+                        "targetType":"page",
+                        "url":"回收链接.html",
+                        "includeVariables":true},
+                      "linkType":"new"}]}]}},
+          "tabbable":true,
+          "images":{
+            "normal~":"images/主页/u4.png"}}]}},
+  "masters":{
+},
+  "objectPaths":{
+    "bab184053ff94e59bcab50df99f11571":{
+      "scriptId":"u0"},
+    "a2ee1d1acb2e4cedb0ace4fb92846a6e":{
+      "scriptId":"u1"},
+    "2b22dacd27d44dd998fa43693b0df921":{
+      "scriptId":"u2"},
+    "deb7414ef20a498abb45ef51b30ce9bd":{
+      "scriptId":"u3"},
+    "a2bf1ad88af74833b98b26f3fd1e6c2f":{
+      "scriptId":"u4"},
+    "f15828a2c5174e23b338e8840c12d669":{
+      "scriptId":"u5"},
+    "43d3ddcdbdd34873827b1450f4b7f0b5":{
+      "scriptId":"u6"},
+    "c6bd34a73e074445863462f5abe9bd4b":{
+      "scriptId":"u7"}}});

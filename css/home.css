@@ -1,0 +1,67 @@
+#bigLogo {
+	position: absolute;
+	z-index: 2;
+	width: 660px;
+	height: 158px;
+	left: 50%;
+	margin-left: -330px;
+	top: 15%;
+	margin-top: 0;
+	-webkit-transition: 1s;
+}
+#bigLogo:hover {
+	top: 5%;
+	-webkit-transition: 1s;
+}
+
+#aboveTxt {
+	width: 302px;
+	height: 32px;
+	position: absolute;
+	left: 50%;
+	margin-left: -151px;
+	top: 40%;
+}
+
+#belowTxt {
+	display: none;
+	position: absolute;
+	width: 740px;
+	height: 72px;
+	top: 40%;
+	left: 50%;
+	margin-left: -370px;
+	margin-top: -40px;
+}
+
+#lines {
+	position: absolute;
+	top: 50%;
+}
+
+#lines img {
+	width: 100%;
+}
+
+#leftBtn {
+	width: 155px;
+	height: 155px;
+	top: 65%;
+	margin-top: -45px;
+	left: 33.3%;
+	margin-left: -75px;
+	background-image: url(../imgs/收集.png);
+	background-repeat: no-repeat;
+}
+
+#rightBtn {
+	width: 155px;
+	height: 155px;
+	top: 65%;
+	margin-top: -45px;
+	left: 66.7%;
+	margin-left: -75px;
+	background-image: url(../imgs/整合.png);
+	background-repeat: no-repeat;
+}
+
